@@ -4,6 +4,7 @@ body{
     /*background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
     /*background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Roboto', serif;
+
 }
 .skewtext::before {  
   transform: scaleX(0);
@@ -23,11 +24,11 @@ body{
   
 } 
 .skewtext:hover::before {
-  transform: scaleX(3);
+  transform: scaleX(1);
   transform-origin: bottom left;
 }
 .skewtext.col {
-  text-align-last: right;
+  text-align-last: center;
 }
 
 .skewtext::before {
