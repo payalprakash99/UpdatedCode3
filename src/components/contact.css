@@ -1,0 +1,46 @@
+.homelink{
+  text-align: right;
+  margin-bottom: 17px;
+    padding: 10px 15px;
+    font-size: 40px;
+    font-weight: bold;
+    align-content: center;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: hsl(189.47, 29.53%, 62.16%);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: .25rem;
+    margin: 2%;
+    padding: 2%;
+}
+  .boxcard{
+      align-items: center;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    align-items: center;
+  }
+  
+  .container1 {
+    padding: 2px 16px;
+  }
+  .container2 {
+    padding: 2px 16px;
+  }
+  .container3 {
+    padding: 2px 16px;
+  }
+  .container4 {
+    padding: 2px 16px;
+  }
